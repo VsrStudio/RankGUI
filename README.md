@@ -6,6 +6,7 @@ RankGUI is a pocketmine plugin that provides rank and rules with gui
 - Gui decoration
 - Can't pick up gui items
 - Easy to setup
+- Custom item gui
 - Acak gui rank items (except rules)
 
 # Placeholder
