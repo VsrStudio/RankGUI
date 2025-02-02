@@ -1,0 +1,80 @@
+# to display the name {player}
+# to display the date {date}
+# to display the time zone {time}
+# to add items you can check itemregistery.php
+# timezone
+timezone: "Asia/Jakarta"
+
+# Rank
+ranks:
+  VIP:
+    name: "§6VIP Rank"
+    icon: "golden_apple"
+    lore:
+      - "§7- {date}"
+      - "§7- {time}"
+      - "§7- Akses fitur eksklusif"
+      - "§7- Prefix §6[VIP]: {player}"
+      - "§7- Efek tambahan!"
+  MVP:
+    name: "§bMVP Rank"
+    icon: "diamond"
+    lore:
+      - "§7- Semua fitur VIP"
+      - "§7- Prefix §b[MVP]"
+      - "§7- Efek spesial!"
+  MVP+:
+    name: "§eMVP+ Rank"
+    icon: "nether_star"
+    lore:
+      - "§7- Semua fitur MVP"
+      - "§7- Prefix §e[MVP+]"
+      - "§7- Partikel eksklusif!"
+  MVP++:
+    name: "§dMVP++ Rank"
+    icon: "dragon_breath"
+    lore:
+      - "§7- Semua fitur MVP+"
+      - "§7- Prefix §d[MVP++]"
+      - "§7- Efek kilat dan lebih!"
+  Supreme:
+    name: "§cSupreme Rank"
+    icon: "experience_bottle"
+    lore:
+      - "§7- Semua fitur MVP++"
+      - "§7- Prefix §c[Supreme]"
+      - "§7- Efek spesial & eksklusif!"
+
+#Rules
+rules:
+  rules1:
+    name: "Aturan 1: Etika Bermain"
+    lore:
+      - "§7Bermainlah dengan sportif dan jujur. Kami menghargai setiap pemain yang"
+      - "§7bermain dengan hati yang bersih dan penuh rasa hormat."
+      - ""
+      - "§e• Jangan menggunakan cheat atau modifikasi yang tidak sah."
+      - "§e• Hormati pemain lain, jangan berperilaku toksik."
+      - "§e• Jangan mengganggu pengalaman bermain orang lain dengan spamming atau griefing."
+      - ""
+      - "§7Kita semua di sini untuk bersenang-senang. Nikmatilah perjalanan ini bersama!"
+  rules2:
+    name: "Aturan 2: Penggunaan Chat"
+    lore:
+      - "§7Chat adalah alat komunikasi yang sangat penting. Gunakanlah dengan bijak."
+      - ""
+      - "§e• Jangan menggunakan kata-kata kasar, pelecehan, atau rasialisme."
+      - "§e• Jaga percakapan tetap positif dan mendukung."
+      - "§e• Jangan menyebarkan rumor atau informasi yang tidak jelas."
+      - ""
+      - "§7Kami percaya bahwa percakapan yang positif akan memperkuat komunitas ini."
+  rules3:
+    name: "Aturan 3: Peraturan Server"
+    lore:
+      - "§7Setiap server memiliki aturan, dan kami mengharapkan semua pemain untuk mematuhi mereka."
+      - ""
+      - "§e• Jangan merusak atau mengubah struktur yang tidak Anda miliki."
+      - "§e• Patuhi aturan yang ada untuk mencegah bannering atau suspensi."
+      - "§e• Jangan gunakan bot atau skrip otomatis untuk keuntungan pribadi."
+      - ""
+      - "§7Kami ingin menjaga server tetap adil dan menyenangkan untuk semua pemain!"
