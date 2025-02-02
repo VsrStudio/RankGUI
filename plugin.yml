@@ -9,6 +9,7 @@ commands:
   ranklist:
     description: Opening Rank List GUI
     permission: ranklist.use
+    aliases: [rank]
 
 permissions:
   ranklist.use:
