@@ -1,16 +1,24 @@
-name: RankList
-main: VsrStudio\RankList\RankList
+name: RankGUI
+main: VsrStudio\RankGUI\RankGUI
 version: 1.0.0
 api: 5.0.0
 author: VsrStudio
-description: Plugin to display rank and rules list in GUI
+description: Plugin to display rank and rules in GUI
+depend: 
+  - InvMenu
+  - CustomSizedInvMenu
 
 commands:
   ranklist:
-    description: Opening Rank List GUI
-    permission: ranklist.use
+    description: Open the rank list gui
+    permission: rankgui.use
     aliases: [rank]
+  rules:
+    description: View the server rules
+    permission: rulesgui.use
 
 permissions:
-  ranklist.use:
+  rankgui.use:
+    default: true
+  rulesgui.use:
     default: true
