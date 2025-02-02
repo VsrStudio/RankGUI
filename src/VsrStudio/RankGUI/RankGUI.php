@@ -51,12 +51,12 @@ class RankGUI extends PluginBase {
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool {
         if ($command->getName() === "ranklist") {
             if (!$sender instanceof Player) {
-                $sender->sendMessage("§cCommand ini hanya bisa digunakan dalam game!");
+                $sender->sendMessage("§cThis command can only be used in game!");
                 return false;
             }
 
             if (!$sender->hasPermission("rankgui.use")) {
-                $sender->sendMessage("§cKamu tidak memiliki izin untuk menggunakan perintah ini!");
+                $sender->sendMessage("§cYou do not have permission to use this command!");
                 return false;
             }
 
@@ -66,7 +66,7 @@ class RankGUI extends PluginBase {
 
         if ($command->getName() === "rules") {
             if (!$sender instanceof Player) {
-                $sender->sendMessage("§cCommand ini hanya bisa digunakan dalam game!");
+                $sender->sendMessage("§cThis command can only be used in game!");
                 return false;
             }
 
