@@ -41,6 +41,11 @@ class RankGUI extends PluginBase {
         $this->rules = $this->getConfig()->get("rules", []);
         $timezone = $this->getConfig()->get("timezone", "Asia/Jakarta");
         date_default_timezone_set($timezone);
+        if (!class_exists(CustomSizedInvMenu::class) || !class_exists(InvMenu::class)) {
+            $this->getLogger()->warning("InvMenu or CustomSizedInvMenu class not found. Please ensure dependencies are properly installed.");
+        } else {
+            $this->getLogger()->info("InvMenu and CustomSizedInvMenu are successfully loaded.");
+        }
     }
 
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool {
