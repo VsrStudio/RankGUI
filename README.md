@@ -15,6 +15,6 @@ RankGUI is a pocketmine plugin that provides rank and rules with gui
 
 # In Game
 - Rank Menu
-![Rank][image/Screenshot_20250202-155213.png]
+![Rank](image/Screenshot_20250202-155213.png)
 - Rules Menu
-![Rules][image/Screenshot_20250202-173116.png]
+![Rules](image/Screenshot_20250202-173116.png)
