@@ -1,0 +1,15 @@
+name: RankList
+main: VsrStudio\RankList\RankList
+version: 1.0.0
+api: 5.0.0
+author: VsrStudio
+description: Plugin to display rank and rules list in GUI
+
+commands:
+  ranklist:
+    description: Opening Rank List GUI
+    permission: ranklist.use
+
+permissions:
+  ranklist.use:
+    default: true
