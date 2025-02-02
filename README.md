@@ -14,6 +14,10 @@ RankGUI is a pocketmine plugin that provides rank and rules with gui
 - Display time zone {time}
 - Displaying the date {date}
 
+# Depend
+![InvMenu](https://github.com/Muqsit/InvMenu)
+![CustomSizedInvMenu](https://github.com/Muqsit/CustomSizedInvMenu)
+
 # In Game
 - Rank Menu
 ![Rank](image/Screenshot_20250202-155213.png)
