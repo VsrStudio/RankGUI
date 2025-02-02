@@ -4,9 +4,8 @@ version: 1.0.0
 api: 5.0.0
 author: VsrStudio
 description: Plugin to display rank and rules in GUI
-depend: 
-  - InvMenu
-  - CustomSizedInvMenu
+depend: CustomSizedInvMenu
+softdepend: InvMenu
 
 commands:
   ranklist:
